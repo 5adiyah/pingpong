@@ -30,10 +30,13 @@
 
 .whitebox {
   background-color: #fff;
+  margin-bottom: 3%;
+  border-radius: 15px;
 }
 
 body {
   background-color: #EE9285;
+  color: #140023;
 }
 
 .button:hover{
@@ -62,7 +65,11 @@ body {
   margin-bottom: 3%;
 }
 
-
+.greyed:hover{
+  background-color: #EE9285;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
 hr {
   color: #EE9285;
@@ -76,4 +83,20 @@ hr {
 
 .u-full-width{
   height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: #EE9285;
+}
+label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #EE9285;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  background-color: #140023;
+  border-color: #140023;
 }
