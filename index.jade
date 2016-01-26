@@ -23,7 +23,7 @@ html
             a.button(href="#about") About Me
             a.button(href="#portfolio") Portfolio
             a.button(href="#") My Blog
-            a.button(href="#") Contact
+            a.button(href="#contact") Contact
           
           hr#about
           
@@ -37,40 +37,56 @@ html
           
           .maincontent
             .row
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 1,  
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 2,
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 3,
             .row
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 1,  
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 2,
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 3,
             .row
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 1,  
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 2,
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 3,                    
             .row
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 1,  
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 2,
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 3,                    
             .row
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 1,  
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 2,
-              .one-third.column.greyed
+              a.one-third.column.greyed(href="#")
                 p Project 3,    
           
-          hr 
+          hr#contact
           
+          form
+            .row
+              .six.columns
+                label(for="exampleNameInput") Name
+                input.u-full-width(type="text", placeholder="John Doe", id="exampleEmailInput")                
+              .six.columns
+                label(for="exampleEmailInput") Email
+                input.u-full-width(type="email", placeholder="email@example.com", id="exampleEmailInput")
+            label(for="exampleMessage") Message
+              textarea.u-full-width(placeholder="Hi Sadio...", id="exampleMessage")
+            label.example-send-yourself-copy
+              input(type="checkbox")
+              span.label-body Send a copy to yourself
+            input.button-primary(type="submit" value="Submit")
+                
+                    
