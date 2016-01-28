@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.strong {
+  font-weight: bold;
+}
+
 .darkpurple {
   color: #140023
 }
@@ -71,6 +75,15 @@ body {
   border: 1px solid #fff;
 }
 
+
+.post {
+  background: #EEE;
+  border-radius: 4px;
+  letter-spacing: .1rem;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
 hr {
   color: #EE9285;
   border: 2px solid #EE9285;
@@ -99,4 +112,30 @@ label {
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   background-color: #140023;
   border-color: #140023;
+}
+
+
+.blogcontent {
+  width: 95%;
+  margin: auto;
+}
+
+.blogimg {
+  float: left;
+  margin: 1.5%;
+  border-radius: 10px;
+}
+
+.blogtext {
+  margin-top: 2%;
+}
+
+.blogtext table{
+  margin: auto;
+}
+.blogtext h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #140023;
 }

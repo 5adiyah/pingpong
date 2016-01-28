@@ -1,92 +1,92 @@
+//output:index.html
+
 doctype
 html
-  title 5adiyah
-  link(rel="stylesheet", href="normalize.css")
-  link(rel="stylesheet", href="skeleton.css")
-  link(rel="stylesheet", href="styles.css")
-  link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
-  body
-  
-    .container 
-      .whitebox
-        .container
-          .header
-            p.center
-              img(src='profile.png')
-          
-          .title
-            h2.center.darkpurple SADIO ALI
-          .subsitle
-            p.center.tan EAT | SLEEP | CODE | REPEAT
-          
-          p.center
-            a.button(href="#about") About Me
-            a.button(href="#portfolio") Portfolio
-            a.button(href="#") My Blog
-            a.button(href="#contact") Contact
-          
-          hr#about
-          
-          .maincontent
-            .row
-              .twelve.column
-                img(src="desk.jpeg", width="30%")
-                p I am a 21 year old graphic design student living in the beautiful North West. Web design and web development have always been interesting to me. It all started in 9th grade when my parents tried out this online school program and I would spend my time following Photoshop tutorials instead of working on my Shakespeare homework. From there, I started looking more into design and got into web design. In the last two or so years I took some courses on HTML and CSS and made several websites with that knowledge. I'm currently enrolled in the Epicodus bootcamp where I will be studying for the next couple of months.
+	title 5adiyah
+	link(rel="stylesheet", href="normalize.css")
+	link(rel="stylesheet", href="skeleton.css")
+	link(rel="stylesheet", href="styles.css")
+	link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
+	body
 
-          hr#portfolio
-          
-          .maincontent
-            .row
-              a.one-third.column.greyed(href="#")
-                p Project 1  
-              a.one-third.column.greyed(href="#")
-                p Project 2
-              a.one-third.column.greyed(href="#")
-                p Project 3
-            .row
-              a.one-third.column.greyed(href="#")
-                p Project 4  
-              a.one-third.column.greyed(href="#")
-                p Project 5
-              a.one-third.column.greyed(href="#")
-                p Project 6
-            .row
-              a.one-third.column.greyed(href="#")
-                p Project 7 
-              a.one-third.column.greyed(href="#")
-                p Project 8
-              a.one-third.column.greyed(href="#")
-                p Project 9                   
-            .row
-              a.one-third.column.greyed(href="#")
-                p Project 10 
-              a.one-third.column.greyed(href="#")
-                p Project 11
-              a.one-third.column.greyed(href="#")
-                p Project 12                    
-            .row
-              a.one-third.column.greyed(href="#")
-                p Project 13  
-              a.one-third.column.greyed(href="#")
-                p Project 14
-              a.one-third.column.greyed(href="#")
-                p Project 15   
-          
-          hr#contact
-          
-          form
-            .row
-              .six.columns
-                label(for="exampleNameInput") Name
-                input.u-full-width(type="text", placeholder="John Doe", id="exampleEmailInput")                
-              .six.columns
-                label(for="exampleEmailInput") Email
-                input.u-full-width(type="email", placeholder="email@example.com", id="exampleEmailInput")
-            label(for="exampleMessage") Message
-              textarea.u-full-width(placeholder="Hi Sadio...", id="exampleMessage")
-          .row
-            .one-third.column
-              input.button-primary(type="submit" value="Submit")
-            
-                
-                    
+		.container
+			.whitebox
+				.container
+					.header
+						p.center
+							a(href="index.html")
+								img(src='images/profile.png')
+
+					.title
+						h2.center.darkpurple SADIO ALI
+					.subsitle
+						p.center.tan EAT | SLEEP | CODE | REPEAT
+
+					p.center
+						a.button(href="index.html#about") About Me
+						a.button(href="index.html#portfolio") Portfolio
+						a.button(href="blog.html#blog") My Blog
+						a.button(href="index.html#contact") Contact
+
+					hr#about
+
+					.maincontent
+						.row
+							.twelve.column
+								img(src="images/desk.jpeg", width="30%")
+								p I am a 21 year old graphic design student living in the beautiful North West. Web design and web development have always been interesting to me. It all started in 9th grade when my parents tried out this online school program and I would spend my time following Photoshop tutorials instead of working on my Shakespeare homework. From there, I started looking more into design and got into web design. In the last two or so years I took some courses on HTML and CSS and made several websites with that knowledge. I'm currently enrolled in the Epicodus bootcamp where I will be studying for the next couple of months. I enjoy trying out new recipes, listening to podcasts, playing around with photoshop, and catching up on my favorite shows.
+
+					hr#portfolio
+
+					.blogcontent
+						.row
+							a.one-third.column.greyed.comingsoon(href="#")
+								p Epicodus Projects
+							a.one-third.column.greyed.comingsoon(href="#")
+								p CS 161 (Python) Projects
+							a.one-third.column.greyed.comingsoon(href="#")
+								p CS 162 (C++) Projects
+						.row
+							a.one-third.column.greyed(href="http://daughtersofeve.org/")
+								p Daughters of Eve
+							a.one-third.column.greyed(href="http://penmarks.salidesigns.com/")
+								p Pen Marks
+							a.one-third.column.greyed(href="http://dolshe.salidesigns.com/")
+								p Dolshe
+						.row
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+						.row
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+						.row
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+							a.one-third.column.greyed(href="#")
+								p Coming Soon
+
+					hr#contact
+
+					form
+						.row
+							.six.columns
+								label(for="exampleNameInput") Name
+								input.u-full-width(type="text", placeholder="John Doe", id="exampleEmailInput")
+							.six.columns
+								label(for="exampleEmailInput") Email
+								input.u-full-width(type="email", placeholder="email@example.com", id="exampleEmailInput")
+						label(for="exampleMessage") Message
+							textarea.u-full-width(placeholder="Hi Sadio...", id="exampleMessage")
+					.row
+						.one-third.column
+							input.button-primary(type="submit" value="Submit")
