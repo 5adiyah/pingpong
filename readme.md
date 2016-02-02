@@ -20,7 +20,7 @@
 **Installing Skeleton**
 
 ```
-Clone the repo: `git clone https://github.com/dhg/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
+Clone the repo: `git clone https://github.com/dhg/Skeleton.git` 
 ```
 
 Installing Jade
