@@ -1,0 +1,141 @@
+
+.header {
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.darkpurple {
+  color: #140023
+}
+
+.tan {
+  color: #EE9285;
+}
+
+.title h2 {
+  font-family: serif;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.subsitle p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+.whitebox {
+  background-color: #fafafa;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+
+body {
+  background-color: #EE9285;
+  color: #140023;
+}
+
+.button:hover{
+  background-color: #EE9285;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button {
+  margin-left: 3%;
+  width: 140px;
+  display: inline-block;
+}
+
+.greyed {
+  background: #EEE;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  height: 150px;
+  line-height: 150px;
+  margin-bottom: .75rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  margin-bottom: 3%;
+}
+
+.greyed:hover{
+  background-color: #EE9285;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
+.post {
+  background: #EEE;
+  border-radius: 4px;
+  letter-spacing: .1rem;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+hr {
+  color: #EE9285;
+  border: 2px solid #EE9285;
+}
+
+.twelve.column img {
+  float: left;
+  padding: 3%;
+}
+
+.u-full-width{
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: #EE9285;
+}
+label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #EE9285;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  background-color: #140023;
+  border-color: #140023;
+}
+
+
+.blogcontent {
+  width: 95%;
+  margin: auto;
+}
+
+.blogimg {
+  float: left;
+  margin: 1.5%;
+  border-radius: 10px;
+}
+
+.blogtext {
+  margin-top: 2%;
+}
+
+.blogtext table{
+  margin: auto;
+}
+.blogtext h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #140023;
+}
