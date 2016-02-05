@@ -1,6 +1,6 @@
 5adiyah.github.io
 ======
-**5adiyah.github.io** is my personal/project website. I'm planning on using it as a testing site for all the new things that I learn during my time at Epicodus.
+**http://5adiyah.github.io/** is my personal/project website. I'm planning on using it as a testing site for all the new things that I learn during my time at Epicodus.
 
 ### To-Do:
 
