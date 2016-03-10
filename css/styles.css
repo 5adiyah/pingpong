@@ -20,22 +20,49 @@
   color: #EE9285;
 }
 
-.title h2 {
+.title {
   font-family: serif;
   font-weight: 600;
   letter-spacing: 4px;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-bottom: 40%;
 }
 
-.subsitle p {
-  font-family: 'Open Sans', sans-serif;
+h3 {
+  font-family: serif;
   font-weight: 600;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.link {
+  font-family: sans-serif;
+  letter-spacing: 4px;
+}
+
+.socialmedia{
+  margin-top: 45%;
+}
+
+.smedia{
+  padding-bottom: 5%;
 }
 
 .whitebox {
   background-color: #fafafa;
-  margin-bottom: 3%;
-  border-radius: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 2%;
+}
+
+.text{
+  padding: 1%;
+}
+
+.boxes{
+  padding: 2%;
 }
 
 body {
@@ -61,8 +88,8 @@ body {
   border-radius: 4px;
   font-size: 1rem;
   text-transform: uppercase;
-  height: 150px;
-  line-height: 150px;
+  height: 200px;
+  line-height: 200px;
   margin-bottom: .75rem;
   font-weight: 600;
   letter-spacing: .1rem;
@@ -138,4 +165,49 @@ label {
   font-weight: 600;
   letter-spacing: 1px;
   color: #140023;
+}
+
+.sidebar {
+  width: 275px;
+  background-color: #FAFAFA;
+  float: left;
+  position: fixed;
+  height: 100%;
+  padding-top: 2%;
+}
+
+.profile{
+  width: 145px;
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+.link a{
+  color: #000;
+}
+
+.link a:hover{
+  color: #EE9285;
+}
+
+.maincontent{
+  margin-left: 275px;
+  padding-top: 2%;
+}
+
+.topbar{
+  background-color: #5A4D4D;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 2%;
+  padding-bottom: 0.5%;
+}
+
+.topbar p{
+  color: #C1B6B6;
+  font-family: serif;
+  font-size: 100px;
+  letter-spacing: -12px;
+  line-height: 0;
 }

@@ -8,85 +8,62 @@ html
 	link(rel="stylesheet", href="css/styles.css")
 	link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
 	body
-
-		.container
+	
+		.sidebar
+			p.center
+				a(href="index.html")
+					img.profile(src='images/profile.jpg')
+			p.title.center.darkpurple SADIO ALI
+			p.center.link #[a(href="#") ABOUT ME]
+			p.center.link #[a(href="#") PORTFOLIO]
+			p.center.link #[a(href="#") BLOG]
+			.socialmedia
+				p.center
+					a(href="#")
+						img.smedia(src='images/fbook.png')
+				p.center
+					a(href="#")
+						img.smedia(src='images/github.png')
+				p.center
+					a(href="#")
+						img.smedia(src='images/insta.png')
+				p.center
+					a(href="#")
+						img.smedia(src='images/linkedin.png')
+		
+		.maincontent
 			.whitebox
-				.container
-					.header
-						p.center
-							a(href="index.html")
-								img(src='images/profile.png')
-
-					.title
-						h2.center.darkpurple SADIO ALI
-					.subsitle
-						p.center.tan EAT | SLEEP | CODE | REPEAT
-
-					p.center
-						a.button(href="index.html#about") About Me
-						a.button(href="index.html#portfolio") Portfolio
-						a.button(href="blog.html#blog") My Blog
-						a.button(href="index.html#contact") Contact
-
-					hr#about
-
-					.maincontent
-						.row
-							.twelve.column
-								img(src="images/desk.jpeg", width="30%")
-								p I am a 21 year old graphic design student living in the beautiful North West. Web design and web development have always been interesting to me. It all started in 9th grade when my parents tried out this online school program and I would spend my time following Photoshop tutorials instead of working on my Shakespeare homework. From there, I started looking more into design and got into web design. In the last two or so years I took some courses on HTML and CSS and made several websites with that knowledge. I'm currently enrolled in the Epicodus bootcamp where I will be studying for the next couple of months. I enjoy trying out new recipes, listening to podcasts, playing around with photoshop, and catching up on my favorite shows.
-
-					hr#portfolio
-
-					.blogcontent
-						.row
-							a.one-third.column.greyed(href="http://5adiyah.github.io/jspractice/", target="_blank")
-								p Js Onclick Practice
-							a.one-third.column.greyed(href="http://5adiyah.github.io/JsForms/", target="_blank")
-								p Madlibs
-							a.one-third.column.greyed(href="http://5adiyah.github.io/BackgroundColor/", target="_blank")
-								p Background Colors
-						.row
-							a.one-third.column.greyed(href="http://daughtersofeve.org/", target="_blank")
-								p Daughters of Eve
-							a.one-third.column.greyed(href="http://penmarks.salidesigns.com/", target="_blank")
-								p Pen Marks
-							a.one-third.column.greyed(href="http://dolshe.salidesigns.com/", target="_blank")
-								p Dolshe
-						.row
-							a.one-third.column.greyed(href="http://5adiyah.github.io/talktome/", target="_blank")
-								p Talk to Me
-							a.one-third.column.greyed(href="http://5adiyah.github.io/pdxbridges/", target="_blank")
-								p Portand Bridges
-							a.one-third.column.greyed(href="http://5adiyah.github.io/epicoland/", target="_blank")
-								p Epicoland
-						.row
-							a.one-third.column.greyed(href="http://5adiyah.github.io/tickets/", target="_blank")
-								p Jsconf
-							a.one-third.column.greyed(href="#")
-								p Coming Soon
-							a.one-third.column.greyed(href="#")
-								p Coming Soon
-						.row
-							a.one-third.column.greyed(href="#")
-								p Coming Soon
-							a.one-third.column.greyed(href="#")
-								p Coming Soon
-							a.one-third.column.greyed(href="#")
-								p Coming Soon
-
-					hr#contact
-
-					form
-						.row
-							.six.columns
-								label(for="exampleNameInput") Name
-								input.u-full-width(type="text", placeholder="John Doe", id="exampleEmailInput")
-							.six.columns
-								label(for="exampleEmailInput") Email
-								input.u-full-width(type="email", placeholder="email@example.com", id="exampleEmailInput")
-						label(for="exampleMessage") Message
-							textarea.u-full-width(placeholder="Hi Sadio...", id="exampleMessage")
+				.topbar
+					p . . .
+				.text
+					h3 PORTFOLIO
+				.boxes
 					.row
-						.one-third.column
-							input.button-primary(type="submit" value="Submit")
+						a.one-third.column.greyed(href="http://5adiyah.github.io/binaryconverter/")
+							p BINARY CONVERTER
+						a.one-third.column.greyed(href="http://5adiyah.github.io/piglatin/")
+							p PIG LATIN
+						a.one-third.column.greyed(href="http://5adiyah.github.io/isitprime/")
+							p IS IT PRIME?
+					.row
+						a.one-third.column.greyed(href="http://5adiyah.github.io/vacation/")
+							p VACATION GENERATOR
+						a.one-third.column.greyed(href="http://5adiyah.github.io/leapyear/")
+							p LEAP YEAR
+						a.one-third.column.greyed(href="http://5adiyah.github.io/onthewall/")
+							p ON THE WALL
+					.row
+						a.one-third.column.greyed(href="http://5adiyah.github.io/epicoland/")
+							p EPICOLAND
+						a.one-third.column.greyed(href="http://5adiyah.github.io/pdxbridges/")
+							p PORTLAND BRIDGES
+						a.one-third.column.greyed(href="http://5adiyah.github.io/talktome/")
+							p TALK TO ME
+					.row
+						a.one-third.column.greyed(href="http://5adiyah.github.io/JsForms/")
+							p MADLIBS 
+						a.one-third.column.greyed(href="http://5adiyah.github.io/BackgroundColor/")
+							p BACKGROUND COLORS
+						a.one-third.column.greyed(href="http://5adiyah.github.io/jspractice/")
+							p JSPRACTICE
+					
