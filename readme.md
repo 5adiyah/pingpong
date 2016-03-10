@@ -1,17 +1,7 @@
 5adiyah.github.io
 ======
-**http://5adiyah.github.io/** is my personal/project website. I'm planning on using it as a testing site for all the new things that I learn during my time at Epicodus.
+**http://5adiyah.github.io/pingpong** was made for the Epicodus code review. 
 
-### To-Do:
-
-- Use Jade
-- Try out SCSS/SASS
-- Use a responsive Grid (Bootstrap/Foundation/Skeleton)
-- Add a blog (Maybe with Jekyll if using github pages)
-- For the portfolio boxes, add a hover feature that shows info about the projects
-- Add a search feature maybe
-
-### This was set up using:
 - Jade
 - Skeleton responsive boilerplate
 
