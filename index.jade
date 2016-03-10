@@ -7,63 +7,27 @@ html
 	link(rel="stylesheet", href="css/skeleton.css")
 	link(rel="stylesheet", href="css/styles.css")
 	link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
+	script(src="jquery-1.12.0.js")
+	script(src="scripts.js")
 	body
 	
-		.sidebar
-			p.center
-				a(href="index.html")
-					img.profile(src='images/profile.jpg')
-			p.title.center.darkpurple SADIO ALI
-			p.center.link #[a(href="#") ABOUT ME]
-			p.center.link #[a(href="#") PORTFOLIO]
-			p.center.link #[a(href="#") BLOG]
-			.socialmedia
-				p.center
-					a(href="#")
-						img.smedia(src='images/fbook.png')
-				p.center
-					a(href="#")
-						img.smedia(src='images/github.png')
-				p.center
-					a(href="#")
-						img.smedia(src='images/insta.png')
-				p.center
-					a(href="#")
-						img.smedia(src='images/linkedin.png')
-		
+	
 		.maincontent
 			.whitebox
 				.topbar
 					p . . .
 				.text
-					h3 PORTFOLIO
-				.boxes
-					.row
-						a.one-third.column.greyed(href="http://5adiyah.github.io/binaryconverter/")
-							p BINARY CONVERTER
-						a.one-third.column.greyed(href="http://5adiyah.github.io/piglatin/")
-							p PIG LATIN
-						a.one-third.column.greyed(href="http://5adiyah.github.io/isitprime/")
-							p IS IT PRIME?
-					.row
-						a.one-third.column.greyed(href="http://5adiyah.github.io/vacation/")
-							p VACATION GENERATOR
-						a.one-third.column.greyed(href="http://5adiyah.github.io/leapyear/")
-							p LEAP YEAR
-						a.one-third.column.greyed(href="http://5adiyah.github.io/onthewall/")
-							p ON THE WALL
-					.row
-						a.one-third.column.greyed(href="http://5adiyah.github.io/epicoland/")
-							p EPICOLAND
-						a.one-third.column.greyed(href="http://5adiyah.github.io/pdxbridges/")
-							p PORTLAND BRIDGES
-						a.one-third.column.greyed(href="http://5adiyah.github.io/talktome/")
-							p TALK TO ME
-					.row
-						a.one-third.column.greyed(href="http://5adiyah.github.io/JsForms/")
-							p MADLIBS 
-						a.one-third.column.greyed(href="http://5adiyah.github.io/BackgroundColor/")
-							p BACKGROUND COLORS
-						a.one-third.column.greyed(href="http://5adiyah.github.io/jspractice/")
-							p JSPRACTICE
-					
+					h3 PING PONG GAME
+					p Ping Poing will count up to your number from 1 with the following exceptions:
+					ul
+						li Numberes divisible by 3 are replaced with "ping"
+						li Numbers divisible by 5 are replaced with "pong"
+						li Numbers divisible by 15 are replaced with "pingpong"
+					h3 Enter your number below
+					form#pingpong
+						.form-group
+							input(id="number", type="number")
+							button(id="convert", type="submit", class="button") CONVERT!
+					#results
+						ul#resultlist
+						button(id="clear", type="submit", class="button") CLEAR

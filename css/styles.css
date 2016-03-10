@@ -54,11 +54,12 @@ h3 {
   background-color: #fafafa;
   margin-left: 2%;
   margin-right: 2%;
-  border-radius: 2%;
+  border-radius: 2% 2% 0.5% 0.5%;
 }
 
 .text{
-  padding: 1%;
+  padding: 3% 1% 1% 10%;
+  height: 1000px;
 }
 
 .boxes{
@@ -167,31 +168,9 @@ label {
   color: #140023;
 }
 
-.sidebar {
-  width: 275px;
-  background-color: #FAFAFA;
-  float: left;
-  position: fixed;
-  height: 100%;
-  padding-top: 2%;
-}
 
-.profile{
-  width: 145px;
-  border-radius: 100%;
-  margin-top: 10%;
-}
-
-.link a{
-  color: #000;
-}
-
-.link a:hover{
-  color: #EE9285;
-}
 
 .maincontent{
-  margin-left: 275px;
   padding-top: 2%;
 }
 
@@ -210,4 +189,12 @@ label {
   font-size: 100px;
   letter-spacing: -12px;
   line-height: 0;
+}
+
+#results{
+  display: none;
+}
+
+.height{
+  height: 100%;
 }
